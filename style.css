@@ -11,7 +11,7 @@
 }
 /*Box*/
 .box{
-    width: 40%;
+    width: 33%;
     display: inline-block;
     position: relative;
 }
@@ -32,6 +32,7 @@ img{
     position: relative;
     width: 50%;
 }
+/*Hover*/
 .hov{
     position: absolute;
     top: 0;
@@ -40,4 +41,45 @@ img{
 }
 .hov:hover {
     opacity: 1;
+}
+/*Sale*/
+.sale{
+    position: relative;
+    top: 10px;
+    left: -165px;
+    color: white;
+    padding: 3px;
+}
+/*Description*/
+.desc{
+    margin-top: 20px;
+}
+h6{
+    display: inline;
+}
+.crossed {
+    position: relative;
+}
+.crossed::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: black;
+}
+/*BgColor*/
+.bred{
+    background-color: red;
+}
+.bgreen{
+    background-color: green;
+}
+/*Utilities*/
+.uppercase {
+    text-transform: uppercase;
+  }
+.red{
+    color: red;
 }
